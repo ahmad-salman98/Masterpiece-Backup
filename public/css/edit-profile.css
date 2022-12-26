@@ -1,0 +1,48 @@
+.back-link {
+    text-decoration: none !important;
+    color: #1f1212 !important;
+}
+.profile-pic {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 7px #00000090;
+}
+.img-col {
+    border-right: 1px solid #dee2e6 !important;
+}
+
+.success-msg,
+.error-msg {
+    height: 5rem;
+    width: 100%;
+    background-color: #5cb85c50;
+    color: #1f1212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-family: inherit;
+}
+
+.error-msg {
+    background-color: #ff4a4a50;
+}
+
+@media (min-width: 991px) {
+    .img-col img {
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-col {
+        border-right: none !important;
+        border-bottom: 1px solid #dee2e6 !important;
+    }
+}
